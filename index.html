@@ -1,15 +1,15 @@
 <html>
   <head>
-    <title>Chat GPT</title>
+    <title>AI Performance Review Generator</title>
   </head>
   <body>
-    <h1>Chat GPT</h1>
+    <h1>AI Performance Review Generator</h1>
     <form>
       <label for="input">Enter your message:</label><br>
-      <textarea id="input" rows="4" cols="50"></textarea><br>
-      <input type="radio" name="filter" value="question">Question<br>
-      <input type="radio" name="filter" value="statement">Statement<br>
-      <input type="radio" name="filter" value="command">Command<br>
+      <textarea id="input" rows="400" cols="500"></textarea><br>
+      <input type="radio" name="filter" value="Short">Question<br>
+      <input type="radio" name="filter" value="Medium">Statement<br>
+      <input type="radio" name="filter" value="Long">Command<br>
       <button type="submit" onclick="sendRequest()">Submit</button>
     </form>
     <p>Response:</p>
